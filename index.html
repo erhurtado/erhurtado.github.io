@@ -1,94 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Eric Hurtado Portfolio</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #1e1e1e;
-      color: white;
-    }
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eric Hurtado Portfolio</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #121212;
+        color: #fff;
+      }
 
-    header {
-      background-color: #333;
-      padding: 20px;
-      text-align: center;
-    }
+      header {
+        background-color: #1f1f1f;
+        padding: 40px 20px 20px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+      }
 
-    nav {
-      margin-top: 10px;
-    }
+      h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 20px;
-      border: 2px solid transparent;
-      box-sizing: border-box;
-      transition: all 0.3s ease;
-    }
+      nav {
+        margin-top: 20px;
+      }
 
-    nav a:hover {
-      border: 2px solid white;
-    }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        padding: 10px 20px;
+        border: 2px solid transparent;
+        box-sizing: border-box;
+        transition: all 0.3s ease;
+      }
 
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
+      nav a:hover {
+        border: 2px solid white;
+      }
 
-    h1, h2 {
-      color: #f8f8f8;
-    }
+      section {
+        max-width: 800px;
+        margin: 60px auto;
+        padding: 0 20px;
+      }
 
-    p {
-      line-height: 1.6;
-    }
+      h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #444;
+        padding-bottom: 5px;
+      }
 
-    .link-button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #444;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-    }
+      p {
+        line-height: 1.6;
+        font-size: 1.1em;
+        color: #ddd;
+      }
 
-    .link-button:hover {
-      background-color: #666;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Eric Hurtado</h1>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#other">Other Work</a>
-    </nav>
-  </header>
+      .link-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #2c2c2c;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+      }
 
-  <section>
-    <h2>Welcome</h2>
-    <p>Hi! I’m Eric, a passionate data analyst who enjoys solving problems with data, creating insightful dashboards, and helping small businesses and people make smarter decisions. Explore some of my work below!</p>
-  </section>
+      .link-button:hover {
+        background-color: #444;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Eric Hurtado</h1>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#other">Other Work</a>
+      </nav>
+    </header>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <p>Check out my featured portfolio projects here:</p>
-    <a class="link-button" href="https://github.com/erhurtado/data-portfolio" target="_blank">View Data Portfolio</a>
-  </section>
+    <section>
+      <h2>Welcome</h2>
+      <p>
+        Hi! I’m Eric, a passionate data analyst who enjoys solving problems with data, creating insightful dashboards, and helping small businesses and people make smarter decisions. Explore some of my work below!
+      </p>
+    </section>
 
-  <section id="other">
-    <h2>Other Work</h2>
-    <p>Explore additional professional and creative work:</p>
-    <a class="link-button" href="https://github.com/erhurtado" target="_blank">Visit GitHub Profile</a>
-  </section>
-</body>
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Check out my featured portfolio projects here:</p>
+      <a class="link-button" href="https://github.com/erhurtado/data-portfolio" target="_blank">View Data Portfolio</a>
+    </section>
+
+    <section id="other">
+      <h2>Other Work</h2>
+      <p>Explore additional professional and creative work:</p>
+      <a class="link-button" href="https://github.com/erhurtado" target="_blank">Visit GitHub Profile</a>
+    </section>
+  </body>
 </html>
